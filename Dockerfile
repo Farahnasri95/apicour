@@ -13,4 +13,4 @@ ENV PORT=8000
 
 EXPOSE 8000
 
-CMD ["gunicorn", "courses.wsgi:application", "--bind", "0.0.0.0:8000"]
+CMD ["gunicorn", "course_project.wsgi:application", "--bind", "0.0.0.0:8000"]
